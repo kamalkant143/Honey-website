@@ -79,14 +79,30 @@ li{
 
 #header .nav-icon{
     background-color: var(--main-color);
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 1.2rem;
     border-radius: 50rem;
+    box-shadow:#ff9f0d 0px 1px 18px;
+    font-size: 1.1rem;
+
 }
 
 #header .nav-icon a{
     color:var(--other-color) ;
 }
 
+#header .nav-icon a:hover,
+#header .nav-icon .mobile:hover{
+    transform: scale(1.1);
+    color:var(--text-color);
+}
+
 #header .nav-icon .icon{
-    padding-right: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#header .nav-icon .mobile{
+    margin-left: 1rem;
+    color: var(--other-color);
+    cursor: pointer;
+    display: none;
 }
