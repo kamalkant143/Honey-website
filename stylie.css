@@ -30,7 +30,7 @@ li{
 }
 
 .section-p1{
-    padding:0 12rem 0 12rem ;
+    padding:1rem 12rem 0 12rem ;
 }
 
 .section-m1{
@@ -59,4 +59,20 @@ li{
     margin-right: 0.5rem;
 }
 
-#header
+#header .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+#header .nav-bar li a{
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform:capitalize ;
+}
+
+#header .nav-bar li a:hover,
+#header .nav-bar li a.active{
+    color: var(--main-color);
+}
