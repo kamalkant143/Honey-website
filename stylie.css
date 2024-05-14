@@ -44,6 +44,11 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
 
 }
 
@@ -105,4 +110,24 @@ li{
     color: var(--other-color);
     cursor: pointer;
     display: none;
+}
+/* == hero section== */
+
+#hero-page{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#hero-page .left{
+    width: 50%;
+}
+
+
+#hero-page .right{
+    width: 50%;
+}
+
+#hero-page .right img{
+    width: 100%;
 }
