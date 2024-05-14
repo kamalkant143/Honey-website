@@ -67,12 +67,26 @@ li{
 }
 
 #header .nav-bar li a{
-    text-decoration: none;
     color: var(--text-color);
     text-transform:capitalize ;
+    transition: 0.2s;
 }
 
 #header .nav-bar li a:hover,
 #header .nav-bar li a.active{
     color: var(--main-color);
+}
+
+#header .nav-icon{
+    background-color: var(--main-color);
+    padding: 0.2rem 1rem;
+    border-radius: 50rem;
+}
+
+#header .nav-icon a{
+    color:var(--other-color) ;
+}
+
+#header .nav-icon .icon{
+    padding-right: 0.5rem;
 }
