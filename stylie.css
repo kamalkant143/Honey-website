@@ -37,6 +37,26 @@ li{
     margin: 5rem 0;
 }
 
+.btn{
+    color: var(--main-color);
+    background-color: var(--other-color);
+    padding: 0.4rem 1.2rem;
+    border-radius: 50rem;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.btn i{
+    color: var(--main-color);
+    margin-left: 0.3rem;
+    transition: 0.3s;
+}
+
+ .btn:hover i{
+    transform: translateX(0.3rem);
+    color: var(--text-color);
+}
+
 
 /* == nav bar== */
 
@@ -132,27 +152,6 @@ li{
 
 #hero-page .left h1 span{
     color: var(--main-color);
-}
-
-#hero-page .left .btn{
-    color: var(--main-color);
-    background-color: var(--other-color);
-    padding: 0.4rem 1.2rem;
-    border-radius: 50rem;
-    text-transform: capitalize;
-    transition: 0.3s;
-
-}
-
-#hero-page .left .btn i{
-    color: var(--main-color);
-    margin-left: 0.3rem;
-    transition: 0.3s;
-}
-
-#hero-page .left .btn:hover i{
-    transform: translateX(0.3rem);
-    color: var(--text-color);
 }
 
 #hero-page .left .order{
