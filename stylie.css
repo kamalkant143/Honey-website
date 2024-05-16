@@ -181,6 +181,7 @@ li{
 #customer {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
 }
 
 #customer .container{
@@ -201,4 +202,5 @@ li{
 
 #customer .container p{
     color: var(--second-color);
+    text-transform: capitalize;
 }
