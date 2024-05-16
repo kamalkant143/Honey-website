@@ -175,3 +175,30 @@ li{
 #hero-page .right img{
     width: 100%;
 }
+
+/* == about us== */
+
+#customer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#customer .container{
+    background-color: var(--other-color);
+    text-align: center;
+    padding: 1.5rem 0rem;
+    border-radius: 2rem;
+}
+
+#customer .container img{
+    width: 3rem;
+}
+
+#customer .container h3{
+    color: var(--text-color);
+    margin: 0.5rem 0  0.5rem 0;
+}
+
+#customer .container p{
+    color: var(--second-color);
+}
