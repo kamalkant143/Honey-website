@@ -30,7 +30,7 @@ li{
 }
 
 .section-p1{
-    padding:1rem 12rem 0 12rem ;
+    padding:1rem 12rem 1rem 12rem ;
 }
 
 .section-m1{
@@ -69,7 +69,11 @@ li{
     right: 0;
     left: 0;
     z-index: 1000;
+    padding-block: 0.5rem;
+}
 
+#header.scrolled{
+    background-color: var(--other-color);
 }
 
 #header .logo{
