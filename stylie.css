@@ -13,7 +13,7 @@
     --bg-color:#111111;
 
     --big-font:3.5rem;
-    --h2-font:2.3rem;
+    --h2-font:2rem;
     --p-font:1.1rem;
 }
 
@@ -44,6 +44,7 @@ li{
     border-radius: 50rem;
     text-transform: capitalize;
     transition: 0.3s;
+    
 }
 
 .btn i{
@@ -232,4 +233,14 @@ li{
     font-size: var(--h2-font);
     color: var(--text-color);
     text-transform: capitalize;
+}
+#about .about-right p{
+    color: var(--second-color);
+    padding-block: 0.8rem;
+    text-transform: capitalize;
+}
+
+#about .about-right a{
+    display:inline-block;
+    margin-top: 1rem;
 }
