@@ -294,7 +294,7 @@ li {
 
 #shop .shop-container .shop-box .details .price{
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -304,4 +304,10 @@ li {
     background-color: var(--bg-color);
     padding: 0.2rem 1rem;
     border-radius: 5rem;
+    transition: 0.3s;
+}
+
+
+#shop .shop-container .shop-box .details .price a:hover{
+    color: var(--text-color);
 }
