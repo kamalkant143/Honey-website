@@ -264,7 +264,7 @@ li {
 #shop .shop-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 3rem;
 }
 
