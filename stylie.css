@@ -271,6 +271,15 @@ li {
 #shop .shop-container .shop-box{
     background-color: var(--other-color);
     border-radius: 2rem;
+    position: relative;
+}
+
+#shop .shop-container .shop-box .heart{
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  color: var(--main-color);
+  font-size: 1.2rem;
 }
 
 #shop .shop-container .shop-box img{
