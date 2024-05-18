@@ -330,6 +330,7 @@ li {
 /* == our customer == */
 #customer{
     text-align: center;
+    height: 80vh;
 }
 
 #customer h2{
@@ -349,6 +350,7 @@ li {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     text-align: start;
+    gap: 1.5rem;
 }
 
 #customer .review{
@@ -392,4 +394,17 @@ li {
 
 #customer .review .container .box .star i{
     color: var(--main-color);
+}
+
+#customer .store{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+#customer .store img{
+    width: 10rem;
 }
