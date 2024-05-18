@@ -248,7 +248,7 @@ li {
 /* == our shop == */
 #shop {
   text-align: center;
-  height: 80vh;
+  height: 90vh;
 }
 
 #shop span {
@@ -319,7 +319,11 @@ li {
     transition: 0.3s;
 }
 
-
 #shop .shop-container .shop-box .details .price a:hover{
     color: var(--text-color);
 }
+
+#shop  .btn-box{
+   margin-top: 2rem;
+}
+
