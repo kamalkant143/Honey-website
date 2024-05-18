@@ -19,6 +19,7 @@
 
 body {
   background-color: var(--bg-color);
+  /* width: 100%; */
 }
 
 a {
@@ -30,7 +31,8 @@ li {
 }
 
 .section-p1 {
-  padding: 1rem 12rem 1rem 12rem;
+  padding: 1rem 10rem 1rem 10rem;
+  /* padding: 3rem 14%; */
 }
 
 .section-m1 {
@@ -209,9 +211,9 @@ li {
 /* == about us == */
 #about {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
 }
 
 #about .about-left {
@@ -263,37 +265,38 @@ li {
 
 #shop .shop-container{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+     grid-template-columns: repeat(4,1fr);
     gap: 1rem;
     margin-top: 3rem;
+    
 }
 
 #shop .shop-container .shop-box{
     background-color: var(--other-color);
     border-radius: 2rem;
     position: relative;
+
 }
 
 #shop .shop-container .shop-box .heart{
   position: absolute;
   top: 1rem;
-  left: 2rem;
+  left: 1.3rem;
   color: var(--main-color);
   font-size: 1.2rem;
 }
 
 #shop .shop-container .shop-box img{
-    width: 15rem;
+    width: 100%;
 }
 
 #shop .shop-container .shop-box .details{
-    padding-inline:2rem ;
+    padding-inline:1.3rem ;
     text-align: start;
 }
 
 #shop .shop-container .shop-box .details h3{
     color: var(--text-color);
-    /* margin-bottom: 0.5rem; */
     text-transform: capitalize;
 }
 
@@ -311,7 +314,7 @@ li {
 #shop .shop-container .shop-box .details .price a{
     color: var(--main-color);
     background-color: var(--bg-color);
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.8rem;
     border-radius: 5rem;
     transition: 0.3s;
 }
