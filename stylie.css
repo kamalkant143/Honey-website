@@ -351,6 +351,7 @@ li {
     grid-template-columns: repeat(3,1fr);
     text-align: start;
     gap: 1.5rem;
+    margin-top: 3rem;
 }
 
 #customer .review{
@@ -407,4 +408,5 @@ li {
 
 #customer .store img{
     width: 10rem;
+    cursor: pointer;
 }
