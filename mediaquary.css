@@ -249,4 +249,8 @@
   #contact .details p {
     text-align: center;
   }
+
+  #customer .store img {
+    width: 8rem;
+}
 }
