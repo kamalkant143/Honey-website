@@ -201,6 +201,15 @@
     margin: 4rem 0 0rem 0;
   }
 
+  #header .nav-icon .mobile {
+    font-size: 1.3rem;
+}
+
+#header .nav-icon a {
+    font-size: 1.3rem;
+
+}
+
   #hero-page .right img {
     width: 100%;
   }
@@ -247,6 +256,15 @@
 
   .section-m1 {
     margin: 2rem 0 0rem 0;
+}
+
+#header .nav-icon .mobile {
+    font-size: 1rem;
+}
+
+#header .nav-icon a {
+    font-size: 1rem;
+
 }
 
   #hero-page .left .order {
