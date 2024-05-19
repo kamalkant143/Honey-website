@@ -264,4 +264,9 @@
    
     margin-right: 0.5rem;
 }
+
+#contact .details .follow {
+    display: inline-flex;
+    gap: 1.5rem;
+  }
 }
