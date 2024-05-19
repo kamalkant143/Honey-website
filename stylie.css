@@ -444,7 +444,7 @@ li {
 }
 
 #contact .details .address {
-    display: flex;
+    /* display: flex; */
   gap: 2rem;
 }
 
