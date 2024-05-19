@@ -203,12 +203,11 @@
 
   #header .nav-icon .mobile {
     font-size: 1.3rem;
-}
+  }
 
-#header .nav-icon a {
+  #header .nav-icon a {
     font-size: 1.3rem;
-
-}
+  }
 
   #hero-page .right img {
     width: 100%;
@@ -237,10 +236,10 @@
   }
 }
 
-@media (max-width: 420px){
-    #work {
-        grid-template-columns: repeat(1, 1fr);
-    }
+@media (max-width: 420px) {
+  #work {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (max-width: 366px) {
@@ -256,16 +255,15 @@
 
   .section-m1 {
     margin: 2rem 0 0rem 0;
-}
+  }
 
-#header .nav-icon .mobile {
+  #header .nav-icon .mobile {
     font-size: 1rem;
-}
+  }
 
-#header .nav-icon a {
+  #header .nav-icon a {
     font-size: 1rem;
-
-}
+  }
 
   #hero-page .left .order {
     margin-left: 0.5rem;
@@ -282,76 +280,86 @@
 
   #customer .store img {
     width: 8rem;
-}
+  }
 
-#contact .details .address a {
-   
+  #contact .details .address a {
     margin-right: 0.5rem;
-}
+  }
 
-#contact .details .follow {
+  #contact .details .follow {
     display: inline-flex;
     gap: 1.5rem;
   }
 }
 
-@media (max-width: 300px){
+@media (max-width: 300px) {
+  :root {
+    --big-font: 1.5rem;
+    --h2-font: 1.2rem;
+    --p-font: 1rem;
+  }
 
-    :root {
-        --big-font: 1.5rem;
-        --h2-font: 1.2rem;
-        --p-font: 1rem;
-    }
+  #header .logo {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 
-    #header .logo {
-        font-size: 1.2rem;
-        font-weight: 500;
+  #header .nav-icon {
+    font-size: 1rem;
+  }
 
-    }
+  #hero-page .left .order {
+    display: block;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
 
-    #header .nav-icon {
-        font-size: 1rem;
-    }
+  #customer .store img {
+    width: 6rem;
+  }
 
-    #hero-page .left .order {
-        display: block;
-        margin-top: 1.5rem;
-        text-align: center;
-    }
+  #contact .details .address {
+    gap: 0.8rem;
+  }
 
-    #customer .store img {
-        width: 6rem;
-    }
-
-    #contact .details .address {
-        gap: 0.8rem;
-      }
-      
-      #contact .details .address a {
-        margin-right: 0.5rem;
-       
-}
+  #contact .details .address a {
+    margin-right: 0.5rem;
+  }
 }
 
-@media (max-width: 300px){
+@media (max-width: 300px) {
+  :root {
+    --big-font: 1.8rem;
+    --h2-font: 1.2rem;
+    --p-font: 1rem;
+  }
 
-    
-    :root {
-        --big-font: 1.8rem;
-        --h2-font: 1rem;
-        --p-font: 1rem;
-    }
+  #hero-page .left h1 {
+    margin-bottom: 1rem;
+  }
 
-    #shop h2 {
-        margin-top: 0.5rem;
-    }
+  #work {
+    margin: 1rem 0;
+  }
 
-#shop .shop-container {
+  #shop {
     margin-top: 1rem;
-}
+  }
 
-#contact .details .address {
+  #shop h2 {
+    margin-top: 0.5rem;
+  }
+
+  #shop .shop-container {
+    margin-top: 1rem;
+  }
+
+  #contact .details .address {
     display: flex;
     flex-direction: column;
+  }
+
+  #customer .review-box {
+    margin-top: 1rem;
   }
 }
