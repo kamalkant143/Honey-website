@@ -228,6 +228,12 @@
   }
 }
 
+@media (max-width: 420px){
+    #work {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 @media (max-width: 366px) {
   :root {
     --big-font: 2.2rem;
