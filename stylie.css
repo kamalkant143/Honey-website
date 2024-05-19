@@ -20,7 +20,6 @@
 
 body {
   background-color: var(--bg-color);
-  /* width: 100%; */
 }
 
 a {
@@ -33,7 +32,6 @@ li {
 
 .section-p1 {
   padding: 1rem 10rem 1rem 10rem;
-  /* padding: 3rem 14%; */
 }
 
 .section-m1 {
@@ -446,7 +444,7 @@ li {
 }
 
 #contact .details .address {
-  /* display: inline-block; */
+  display: inline-block;
   gap: 2rem;
 }
 

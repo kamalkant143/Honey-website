@@ -332,3 +332,26 @@
        
 }
 }
+
+@media (max-width: 300px){
+
+    
+    :root {
+        --big-font: 1.8rem;
+        --h2-font: 1rem;
+        --p-font: 1rem;
+    }
+
+    #shop h2 {
+        margin-top: 0.5rem;
+    }
+
+#shop .shop-container {
+    margin-top: 1rem;
+}
+
+#contact .details .address {
+    display: flex;
+    flex-direction: column;
+  }
+}
