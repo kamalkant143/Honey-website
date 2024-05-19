@@ -332,7 +332,7 @@ li {
 /* == our customer == */
 #customer {
   text-align: center;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 #customer h2 {
