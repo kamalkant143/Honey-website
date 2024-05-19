@@ -419,4 +419,27 @@ li {
     font-size: var(--h2-font);
 }
 
-#contact .
+#contact .details{
+    margin: 1rem 10rem ;
+}
+
+#contact .details p{
+    color: var(--second-color);
+    text-transform: capitalize;
+}
+
+#contact .details .follow{
+    display: inline-flex;
+    gap: 3rem;
+    margin: 2rem 0;
+}
+
+#contact .details .follow{
+    color: var(--second-color);
+    font-size: 1.2rem;
+}
+
+#contact .details .follow i:hover{
+   color: var(--main-color);
+   cursor: pointer;
+}
