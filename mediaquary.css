@@ -270,3 +270,11 @@
     gap: 1.5rem;
   }
 }
+
+@media (max-width: 300px){
+    #hero-page .left .order {
+        display: block;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+}
