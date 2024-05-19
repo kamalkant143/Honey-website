@@ -1,0 +1,59 @@
+@media (max-width:1210px) {
+    .section-p1 {
+        padding: 1rem 6rem 1rem 6rem;
+    }
+}
+
+
+@media (max-width:1085px) {
+    .section-p1 {
+        padding: 1rem 3rem 1rem 3rem;
+    }
+
+}
+
+@media (max-width:996px){
+
+    .section-p1 {
+        padding: 1rem 6rem 1rem 6rem;
+    }
+
+    #work {
+        margin-top: 6rem;
+    }
+    
+    #shop .shop-container {
+    
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+    }
+
+    #contact .details {
+        margin: 1rem 5rem;
+    }
+
+}
+
+@media (max-width:960px){
+    .section-p1 {
+        padding: 1rem 4rem 1rem 4rem;
+    }
+}
+
+@media (max-width:890px) {
+    #header .nav-icon .mobile {
+        display: initial;
+      }
+
+      #header .nav-bar {
+        display: none;
+    }
+
+    
+
+    :root {
+        --big-font: 2.6rem;
+        --h2-font: 1.8rem;
+        --p-font: 1rem;
+      }
+}

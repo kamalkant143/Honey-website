@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "poppins", sans-serif;
   scroll-behavior: smooth;
+  scroll-padding-top: 3rem;
 }
 
 :root {
@@ -130,7 +131,7 @@ li {
 }
 
 #header .nav-icon .mobile {
-  margin-left: 1rem;
+  margin-left: 0.8rem;
   color: var(--other-color);
   cursor: pointer;
   display: none;
@@ -248,7 +249,7 @@ li {
 /* == our shop == */
 #shop {
   text-align: center;
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 #shop span {
@@ -267,7 +268,8 @@ li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  margin-top: 3rem;
+  margin-top: 3rem; 
+
 }
 
 #shop .shop-container .shop-box {
@@ -286,6 +288,8 @@ li {
 
 #shop .shop-container .shop-box img {
   width: 100%;
+  height: auto;
+  cursor: pointer;
 }
 
 #shop .shop-container .shop-box .details {
@@ -458,4 +462,21 @@ li {
 #contact .details .address a i{
     color: var(--main-color);
     margin-right: 0.3rem;
+}
+
+/* == scroll == */
+
+.scroll{
+    position: fixed;
+    bottom: 2.2rem;
+    right: 2.2rem;
+}
+
+.scroll i{
+    color: var(--text-color);
+    font-size: 1.2rem;
+    background-color: var(--main-color);
+    padding: 10px;
+    border-radius: 5rem;
+   
 }
