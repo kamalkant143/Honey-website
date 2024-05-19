@@ -322,4 +322,13 @@
     #customer .store img {
         width: 6rem;
     }
+
+    #contact .details .address {
+        gap: 0.8rem;
+      }
+      
+      #contact .details .address a {
+        margin-right: 0.5rem;
+       
+}
 }
