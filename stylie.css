@@ -268,8 +268,7 @@ li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  margin-top: 3rem; 
-
+  margin-top: 3rem;
 }
 
 #shop .shop-container .shop-box {
@@ -412,70 +411,69 @@ li {
 }
 
 /* == contact us == */
-#contact{
-    text-align: center;
+#contact {
+  text-align: center;
 }
 
-#contact h2{
-    color: var(--text-color);
-    text-transform: capitalize;
-    font-size: var(--h2-font);
+#contact h2 {
+  color: var(--text-color);
+  text-transform: capitalize;
+  font-size: var(--h2-font);
 }
 
-#contact .details{
-    margin: 1rem 10rem ;
+#contact .details {
+  margin: 1rem 10rem;
 }
 
-#contact .details p{
-    color: var(--second-color);
-    text-transform: capitalize;
+#contact .details p {
+  color: var(--second-color);
+  text-transform: capitalize;
 }
 
-#contact .details .follow{
-    display: inline-flex;
-    gap: 3rem;
-    margin: 2rem 0;
+#contact .details .follow {
+  display: inline-flex;
+  gap: 3rem;
+  margin: 2rem 0;
 }
 
-#contact .details .follow{
-    color: var(--second-color);
-    font-size: 1.2rem;
+#contact .details .follow {
+  color: var(--second-color);
+  font-size: 1.2rem;
 }
 
-#contact .details .follow i:hover{
-   color: var(--main-color);
-   cursor: pointer;
+#contact .details .follow i:hover {
+  color: var(--main-color);
+  cursor: pointer;
 }
 
-#contact .details .address{
-    /* display: inline-block; */
-    gap: 2rem;
+#contact .details .address {
+  /* display: inline-block; */
+  gap: 2rem;
 }
 
-#contact .details .address a{
-    color: var(--text-color);
-    margin-right: 2rem;
-    text-transform: capitalize;
+#contact .details .address a {
+  color: var(--text-color);
+  margin-right: 2rem;
+  text-transform: capitalize;
 }
 
-#contact .details .address a i{
-    color: var(--main-color);
-    margin-right: 0.3rem;
+#contact .details .address a i {
+  color: var(--main-color);
+  margin-right: 0.3rem;
 }
 
 /* == scroll == */
 
-.scroll{
-    position: fixed;
-    bottom: 2.2rem;
-    right: 2.2rem;
+.scroll {
+  position: fixed;
+  bottom: 2.2rem;
+  right: 2.2rem;
 }
 
-.scroll i{
-    color: var(--text-color);
-    font-size: 1.2rem;
-    background-color: var(--main-color);
-    padding: 10px;
-    border-radius: 5rem;
-   
+.scroll i {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  background-color: var(--main-color);
+  padding: 10px;
+  border-radius: 5rem;
 }

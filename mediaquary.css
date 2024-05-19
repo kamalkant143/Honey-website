@@ -228,25 +228,25 @@
 }
 
 @media (max-width: 366px) {
-    :root {
-        --big-font: 2.2rem;
-        --h2-font: 1.2rem;
-        --p-font: 1rem;
-      }
+  :root {
+    --big-font: 2.2rem;
+    --h2-font: 1.2rem;
+    --p-font: 1rem;
+  }
 
-      .section-p1 {
-        padding: 1rem 1rem 1rem 1rem;
-    }
+  .section-p1 {
+    padding: 1rem 1rem 1rem 1rem;
+  }
 
-    #hero-page .left .order {
-        margin-left: 0.5rem;
-    }
-    
-    #work {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  #hero-page .left .order {
+    margin-left: 0.5rem;
+  }
 
-    #contact .details p {
-        text-align: center;
-    }
+  #work {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #contact .details p {
+    text-align: center;
+  }
 }
