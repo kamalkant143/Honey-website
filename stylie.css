@@ -407,3 +407,16 @@ li {
   width: 10rem;
   cursor: pointer;
 }
+
+/* == contact us == */
+#contact{
+    text-align: center;
+}
+
+#contact h2{
+    color: var(--text-color);
+    text-transform: capitalize;
+    font-size: var(--h2-font);
+}
+
+#contact .
