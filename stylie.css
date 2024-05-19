@@ -162,7 +162,6 @@ li {
 #hero-page .left .order {
   color: var(--main-color);
   margin-left: 1rem;
-  text-decoration: underline;
   text-transform: capitalize;
   font-size: 1.2rem;
   transition: 0.3s;

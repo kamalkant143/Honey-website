@@ -272,6 +272,24 @@
 }
 
 @media (max-width: 300px){
+
+    :root {
+        --big-font: 1.5rem;
+        --h2-font: 1.2rem;
+        --p-font: 1rem;
+    }
+
+    #header .logo {
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: var(--text-color);
+    }
+
+    #header .nav-icon {
+        font-size: 1rem;
+    }
+
     #hero-page .left .order {
         display: block;
         margin-top: 1.5rem;
