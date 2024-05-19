@@ -443,3 +443,19 @@ li {
    color: var(--main-color);
    cursor: pointer;
 }
+
+#contact .details .address{
+    /* display: inline-block; */
+    gap: 2rem;
+}
+
+#contact .details .address a{
+    color: var(--text-color);
+    margin-right: 2rem;
+    text-transform: capitalize;
+}
+
+#contact .details .address a i{
+    color: var(--main-color);
+    margin-right: 0.3rem;
+}
