@@ -259,4 +259,9 @@
   #customer .store img {
     width: 8rem;
 }
+
+#contact .details .address a {
+   
+    margin-right: 0.5rem;
+}
 }
